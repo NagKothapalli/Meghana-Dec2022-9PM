@@ -64,10 +64,29 @@ public class LoopingStatements
 	}
 	
 	
+	//WAP to apply color to steps in a building with 10 floors , each floor contains 20 steps
+	@Test
+	public void applyColorToEachFloorInTheBuilding()
+	{
+		for(int floor=1;floor<=10;floor++) //floor = 1 2 //Nested Loop   //Outer Loop
+		{
+			System.out.println("**************Apply Color in Floor Number :" + floor);
+			//Step 1 apply color 2 3 4 5 6 ........19 20
+			for(int step=1;step<=20;step++) //Inner Loop
+			{
+				System.out.println("Apply Color to Step Number :" + step);
+			}
+		}
+	}
 	
+	//  a/b = Q
+	//  a%b = R
 	
-	
-	
+	//WAP to find given number is Even 
+	//WAP to find given number is Odd
+	//WAP to find sum of number from 1 to 100
+	//WAP to print all even numbers in the range of 1-100  i % 2 = Reminder , if Reminder is 0 then that is Even
+	//WAP to print all odd numbers in the range of 1-100
 	
 	
 	
